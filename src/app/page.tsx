@@ -35,7 +35,6 @@ function HomeContent() {
           </div>
           <div className="text-base sm:text-base md:text-base lg:text-lg">
             @RitsumeikanKeisho
-            制作中
           </div>
 
           <div className="absolute inset-0 flex items-center justify-center -z-10 floating">
