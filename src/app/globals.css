@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font_custom {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+#top {
+  animation: down 25s infinite;
+}
+
+@keyframes down {
+  0%, 100% {
+    top: -60vh;
+  }
+  50% {
+    top: 240vh;
+  }
+}
+
+#down {
+  animation: up 15s infinite;
+}
+
+@keyframes up {
+  0%, 100% {
+    left: -60vh;
+  }
+  50% {
+    left: 60vh;
+  }
+}
+
+#right {
+  animation: right 20s infinite;
+}
+
+@keyframes right {
+  0%, 100% {
+    right: -60vh;
+  }
+  50% {
+    right: 180vh;
+  }
+}
+
+#left {
+  animation: left 10s infinite;
+}
+
+@keyframes left {
+  0%, 100% {
+    left: 300vh;
+  }
+  50% {
+    left: 60vh;
+  }
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: float 4s ease-in-out infinite;
+}

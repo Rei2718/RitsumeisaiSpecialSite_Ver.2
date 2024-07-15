@@ -1,0 +1,40 @@
+{
+  "name": "ritsumeisai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.2",
+    "@heroicons/react": "^2.1.4",
+    "@ionic/react": "^8.2.2",
+    "@types/react-icons": "^3.0.0",
+    "@vercel/speed-insights": "^1.0.12",
+    "framer-motion": "^11.2.12",
+    "ionicons": "^7.4.0",
+    "js-cookie": "^3.0.5",
+    "next": "^14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-infinite-scroller": "^1.2.6",
+    "swiper": "^11.1.4",
+    "use-sound": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5"
+  }
+}
